@@ -6,15 +6,15 @@ This lab focuses on practicing modules and testing in Python by implementing fac
 
 ## Factorial Functions
 
-### `factorial_iterative(n)`
+#### `factorial_iterative(n)`
 
 Calculates the factorial of a positive integer `n` using iteration.
 
-### `factorial_recursion(n)`
+#### `factorial_recursion(n)`
 
 Calculates the factorial of a positive integer `n` using recursion.
 
-### `clumsy(n)`
+#### `clumsy(n)`
 
 Calculates the "clumsy" factorial of a positive integer `n`.
 
@@ -42,33 +42,25 @@ Tests are provided for each function in their respective test files:
 
 2. **Activate the Virtual Environment:**
 
-To activate the virtual environment, use the appropriate command based on your operating system:
+    To activate the virtual environment, use the appropriate command based on your operating system:
 
-- **Windows:**
+    - **Windows:** ``` venv\Scripts\activate```
 
-  ```
-  venv\Scripts\activate
-  ```
+    - **Unix or MacOS:** ```source venv/bin/activate```
 
-- **Unix or MacOS:**
-
-  ```
-  source venv/bin/activate
-  ```
-
-Once activated, you should see the name of the virtual environment in your command prompt, indicating that it's active.
+    Once activated, you should see the name of the virtual environment in your command prompt, indicating that it's active.
 
 3. **Navigate to the Root Directory of the Project:**
 
-Make sure you are in the root directory of your project before proceeding further.
+    Make sure you are in the root directory of your project before proceeding further.
 
 4. **Install the Required Dependencies:**
 
-Run the following command to install the required dependencies: ```pip install -r requirements.txt```
+    Run the following command to install the required dependencies: ```pip install -r requirements.txt```
 
 
 5. **Execute All Tests:**
 
-Once the dependencies are installed, execute all tests using the following command: ```pytest```. This will run all the tests in the project.
+    Once the dependencies are installed, execute all tests using the following command: ```pytest```. This will run all the tests in the project.
 
  
