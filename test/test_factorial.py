@@ -1,4 +1,5 @@
-from factorial_module.factorial_module import factorial_iterative, factorial_recursion, clumsy
+from factorial_module.factorial_module import *
+# from factorial_module.factorial_module import factorial_iterative, factorial_recursion, clumsy
 
 #factorial_iterative
 
@@ -17,6 +18,7 @@ def test_factorial_iterative3 ():
     excepted = 120
     assert actual == excepted
 
+
 #factorial_recursion
 
 def test_factorial_recursion1 ():
@@ -34,6 +36,7 @@ def test_factorial_recursion3 ():
     excepted = 120
     assert actual == excepted
 
+
 #clumsy
 
 def test_clumsy1():
@@ -45,7 +48,7 @@ def test_clumsy2():
     excepted = 1
     assert actual == excepted
 def test_clumsy3():
-    actual = clumsy(5)
+    actual = clumsy(4)
     excepted = 7
     assert actual == excepted
 def test_clumsy4():
